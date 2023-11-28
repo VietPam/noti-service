@@ -1,5 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
 using noti_service.Model;
+using Serilog;
 
 namespace noti_service.APIs
 {
@@ -25,7 +27,7 @@ namespace noti_service.APIs
                     tmp.body = noti.body;
                     list_noti.Add(tmp);
                 }
-                list_noti=list_noti.OrderByDescending(s => s.time).ToList();
+                list_noti = list_noti.OrderByDescending(s => s.time).ToList();
                 return list_noti;
             }
         }
@@ -38,23 +40,72 @@ namespace noti_service.APIs
 
             using (DataContext context = new DataContext())
             {
-                SqlUser? existing_user = context.users.Where(s=>s.code==code).FirstOrDefault();
-                if(existing_user == null)
+                SqlUser? existing_user = context.users.Where(s => s.code == code).FirstOrDefault();
+                if (existing_user == null)
                 {
                     return false;
                 }
                 else
                 {
                     SqlNoti noti = new SqlNoti();
-                    noti.user= existing_user;
-                    noti.body= body;
+                    noti.user = existing_user;
+                    noti.body = body;
                     context.notis.Add(noti);
-                    await context.SaveChangesAsync();
-                    return true;
+                    int rows =await context.SaveChangesAsync();
+                    if(rows > 0)
+                    {
+                        try
+                        {
+                            List<NotiDTOResponse> list_noti = GetListNoti(code);
+                            string data = JsonConvert.SerializeObject(list_noti);
+                            Program.notiHub?.Clients.Client(existing_user.IdHub).SendCoreAsync("GetListNoti", new object[] { data });
+                        }
+                        catch(Exception ex)
+                        {
+                            Log.Error(ex.Message);
+                        }
+                        return true;
+                    }
+                    
+                    return false;
                 }
                 //signalr o day
             }
             return false;
         }
+
+        public bool getListNotiSignalR(string idHub)
+        {
+            List<NotiDTOResponse> list_noti = new List<NotiDTOResponse>();
+            using (DataContext context = new DataContext())
+            {
+                SqlUser user = context.users.Where(s => s.IdHub.CompareTo(idHub) == 0).FirstOrDefault();
+                if (user == null)
+                {
+                    return false;
+                }
+                List<SqlNoti> notis = context.notis.Include(s => s.user).Where(s => s.user.code == user.code).ToList();
+                foreach (SqlNoti noti in notis)
+                {
+                    NotiDTOResponse tmp = new NotiDTOResponse();
+                    tmp.time = noti.time;
+                    tmp.body = noti.body;
+                    list_noti.Add(tmp);
+                }
+                list_noti = list_noti.OrderByDescending(s => s.time).ToList();
+                try
+                {
+                    string data = JsonConvert.SerializeObject(list_noti);
+                    Program.notiHub?.Clients.Client(user.IdHub).SendCoreAsync("GetListNoti", new object[] { data });
+                }
+                catch (Exception ex)
+                {
+                    Log.Error(ex.Message);
+                    return false;
+                }
+            }
+            return true;
+        }
     }
 }
+

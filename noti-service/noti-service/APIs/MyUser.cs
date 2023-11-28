@@ -1,4 +1,6 @@
 ﻿using noti_service.Model;
+using Serilog;
+using System.Linq.Expressions;
 
 namespace noti_service.APIs
 {
@@ -15,16 +17,16 @@ namespace noti_service.APIs
             {
                 return false;
             }
-            using(DataContext context = new DataContext())
+            using (DataContext context = new DataContext())
             {
-                SqlUser? existing_user= context.users.Where(s=>s.code == code).FirstOrDefault();
+                SqlUser? existing_user = context.users.Where(s => s.code == code).FirstOrDefault();
                 if (existing_user != null)
                 {
                     return false;
                 }
                 else
                 {
-                    SqlUser newUser= new SqlUser();
+                    SqlUser newUser = new SqlUser();
                     newUser.ID = DateTime.Now.Ticks;
                     newUser.code = code;
                     context.users.Add(newUser);
@@ -40,7 +42,7 @@ namespace noti_service.APIs
             {
                 List<UserDTOResponse> listUser = new List<UserDTOResponse>();
                 List<SqlUser> users = context.users.ToList();
-                if(users.Count > 0)
+                if (users.Count > 0)
                 {
                     foreach (SqlUser user in users)
                     {
@@ -54,9 +56,53 @@ namespace noti_service.APIs
                 {
                     return new List<UserDTOResponse>();
                 }
-
             }
-            return new List<UserDTOResponse>();
+        }
+
+        public async Task<bool> disconnectUserAsync(string id)
+        {
+            using (DataContext context = new DataContext())
+            {
+                try
+                {
+                    SqlUser? user = context.users.Where(s => s.IdHub.CompareTo(id) == 0).FirstOrDefault();
+                    if (user == null)
+                    {
+                        return false;
+                    }
+
+                    user.IdHub = "";
+                    await context.SaveChangesAsync();
+                    return true;
+
+                }
+                catch (Exception ex)
+                {
+                    Log.Error(ex.Message);
+                    return false;
+                }
+            }
+        }
+
+        public async Task<bool> updateUserAsync(string idHub, string code)
+        {
+            using (DataContext context = new DataContext())
+            {
+                try { 
+                SqlUser user = context.users.Where(s=>s.code.CompareTo(code) == 0).FirstOrDefault();
+                if( user == null)
+                {
+                    return false;
+                }
+                user.IdHub = idHub;
+                await context.SaveChangesAsync();
+                return true;
+                }catch(Exception ex)
+                {
+                    Log.Error(ex.Message);
+                    return false;
+                }
+            }
         }
     }
 }

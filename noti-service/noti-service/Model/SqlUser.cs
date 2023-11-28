@@ -8,6 +8,7 @@ namespace noti_service.Model
     {
         [Key]
         public long ID { get; set; }
+        public string IdHub { get; set; }
         public string code { get; set; }  // từ ID của user bên ecommerce migrate qua
     }
 }
