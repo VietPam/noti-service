@@ -21,7 +21,7 @@ namespace noti_service.Controllers
         [Route("createNoti")]
         public async Task<IActionResult> createNoti(string code, string body)
         {
-            bool tmp = Program.api_noti.createNotiAsync(code, body);
+            bool tmp =await Program.api_noti.createNotiAsync(code, body);
             if(tmp)
             {
                 return Ok();
