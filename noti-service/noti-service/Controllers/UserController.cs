@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using noti_service.APIs;
 
 namespace noti_service.Controllers
 {
@@ -21,10 +22,10 @@ namespace noti_service.Controllers
         }
 
         [HttpGet]
-        [Route("getListUser")]
+        [Route("listUser")]
         public IActionResult getListUser()
         {
-            return Ok(Program.api_user.getListUser());
+             return Ok( Program.api_user.getListUser());
         }
     }
 }

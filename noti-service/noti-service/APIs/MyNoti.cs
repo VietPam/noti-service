@@ -11,7 +11,7 @@
         
         public  List<NotiDTOResponse> GetListNoti(string code)
         {
-            return new List<NotiDTOResponse>() ;
+            return new List<NotiDTOResponse>();
         }
         
         public bool createNotiAsync(string code, string body)

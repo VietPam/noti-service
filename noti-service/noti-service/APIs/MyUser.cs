@@ -36,6 +36,26 @@ namespace noti_service.APIs
 
         public List<UserDTOResponse> getListUser()
         {
+            using (DataContext context = new DataContext())
+            {
+                List<UserDTOResponse> listUser = new List<UserDTOResponse>();
+                List<SqlUser> users = context.users.ToList();
+                if(users.Count > 0)
+                {
+                    foreach (SqlUser user in users)
+                    {
+                        UserDTOResponse tmp = new UserDTOResponse();
+                        tmp.code = user.code;
+                        listUser.Add(tmp);
+                    }
+                    return listUser;
+                }
+                else
+                {
+                    return new List<UserDTOResponse>();
+                }
+
+            }
             return new List<UserDTOResponse>();
         }
     }
