@@ -1,10 +1,14 @@
+using noti_service.APIs;
 using Serilog;
 using Serilog.Sinks.SystemConsole.Themes;
+using System.Security.Cryptography.X509Certificates;
 
 namespace noti_service
 {
     public class Program
     {
+        public static MyUser api_user = new MyUser();
+        public static MyNoti api_noti = new MyNoti();
         public static async Task Main(string[] args)
         {
             Log.Logger = new LoggerConfiguration()
@@ -31,7 +35,7 @@ namespace noti_service
                 // Configure the HTTP request pipeline.
                 if (app.Environment.IsDevelopment())
                 {
-                    app.UseSwagger();
+                    app.UseSwagger();   
                     app.UseSwaggerUI();
                 }
 
