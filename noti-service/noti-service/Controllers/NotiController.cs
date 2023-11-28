@@ -11,14 +11,14 @@ namespace noti_service.Controllers
     public class NotiController : ControllerBase
     {
         [HttpGet]
-        [Route("{code}/getListNoti")]
-        public async Task<IActionResult> getListNoti(string code)
+        [Route("getListNoti")]
+        public IActionResult getListNoti(string code)
         {
             return Ok(Program.api_noti.GetListNoti(code));
         }
 
         [HttpPost]
-        [Route("{code}/createNoti")]
+        [Route("createNoti")]
         public async Task<IActionResult> createNoti(string code, string body)
         {
             bool tmp = Program.api_noti.createNotiAsync(code, body);
