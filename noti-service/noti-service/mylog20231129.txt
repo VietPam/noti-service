@@ -1,0 +1,432 @@
+2023-11-29 09:25:54.602 +07:00 [INF] User: new connection -ECSLQDPq9hj1NaDuc_m6A
+2023-11-29 09:26:52.820 +07:00 [INF] Reconnect ok
+2023-11-29 09:27:11.926 +07:00 [INF] Send message ok
+2023-11-29 09:31:59.979 +07:00 [INF] User: new connection k3PgkCYv-hX1DQ0oZuAgwQ
+2023-11-29 09:34:02.984 +07:00 [INF] User: new connection NQuRSYTkmJBaLhNLhv3JCQ
+2023-11-29 09:35:31.981 +07:00 [INF] User: new connection ai1MlMC7VQv-tf8asTu_KQ
+2023-11-29 09:35:47.980 +07:00 [INF] User: new connection 17sACSzErtQtdhBXuWcRuQ
+2023-11-29 09:41:41.996 +07:00 [INF] User: new connection QPL3tF0wu5lXDWo1zgHcBA
+2023-11-29 09:45:35.176 +07:00 [INF] User: remove client QPL3tF0wu5lXDWo1zgHcBA
+2023-11-29 10:03:40.446 +07:00 [INF] User: new connection eCrKuuKlwGf9pJSgmFLzBA
+2023-11-29 10:06:13.315 +07:00 [INF] User: new connection SpkyMACH1kCJuUsP0Fj47Q
+2023-11-29 10:06:31.035 +07:00 [INF] Reconnect ok
+2023-11-29 10:09:38.981 +07:00 [INF] User: new connection KnSpLWssVYIxJ_e2a1v0Fg
+2023-11-29 10:09:50.532 +07:00 [INF] Reconnect fail
+2023-11-29 10:11:20.959 +07:00 [INF] User: new connection 6j_5LUuBAMk3_AVcYCDT5A
+2023-11-29 10:11:36.969 +07:00 [INF] User: new connection eGhtZZ31NcXm7bghXVt0Ug
+2023-11-29 10:11:47.973 +07:00 [INF] User: new connection kb5ln2NSCWAWMMFXYKaULw
+2023-11-29 10:11:54.840 +07:00 [INF] Reconnect fail
+2023-11-29 10:12:11.972 +07:00 [INF] User: new connection YsoKLB9mRrEmVjK6lCphmA
+2023-11-29 10:12:17.266 +07:00 [INF] Reconnect fail
+2023-11-29 10:13:32.963 +07:00 [INF] User: new connection Gu2sXsLDbqlOR0ldRYjoog
+2023-11-29 10:13:36.974 +07:00 [INF] User: new connection EwxUoqWgfo_Fap_lNyH9ew
+2023-11-29 10:13:41.166 +07:00 [INF] Reconnect fail
+2023-11-29 10:13:45.373 +07:00 [INF] Reconnect fail
+2023-11-29 10:13:59.966 +07:00 [INF] User: new connection _0hfdi32S3UM23pExcTHew
+2023-11-29 10:14:01.201 +07:00 [INF] Reconnect fail
+2023-11-29 10:14:19.763 +07:00 [INF] User: new connection xYPKImSbK1sEfIAZ51k35A
+2023-11-29 10:14:26.579 +07:00 [INF] Reconnect ok
+2023-11-29 10:15:42.963 +07:00 [INF] User: new connection 6Ifh0Q6a5bHkUUd4fN3UBg
+2023-11-29 10:15:51.972 +07:00 [INF] User: new connection GtVH9F8gHN9Doiyg3pQtiQ
+2023-11-29 10:16:11.967 +07:00 [INF] User: new connection d5Gi_x-fVar0GyeUNSiJxw
+2023-11-29 10:16:31.971 +07:00 [INF] User: new connection qGioaaCkKPHN5tsFYfDjfQ
+2023-11-29 10:16:58.976 +07:00 [INF] User: new connection y1zzBiYTdNAI4RB6UL_psA
+2023-11-29 10:17:04.347 +07:00 [INF] Send message fail
+2023-11-29 10:17:15.969 +07:00 [INF] User: new connection Pl7_z8JWePU0Qba3RJQvGg
+2023-11-29 10:17:19.552 +07:00 [INF] Send message fail
+2023-11-29 10:17:51.653 +07:00 [INF] Reconnect ok
+2023-11-29 10:18:08.970 +07:00 [INF] User: new connection _f7-7pgZ6eI0pKN2tyncKw
+2023-11-29 10:18:33.694 +07:00 [INF] Send message fail
+2023-11-29 10:19:21.300 +07:00 [INF] Send message fail
+2023-11-29 10:19:21.396 +07:00 [INF] User: remove client YsoKLB9mRrEmVjK6lCphmA
+2023-11-29 10:19:21.396 +07:00 [INF] User: remove client 6Ifh0Q6a5bHkUUd4fN3UBg
+2023-11-29 10:19:21.396 +07:00 [INF] User: remove client y1zzBiYTdNAI4RB6UL_psA
+2023-11-29 10:19:21.396 +07:00 [INF] User: remove client _0hfdi32S3UM23pExcTHew
+2023-11-29 10:19:21.396 +07:00 [INF] User: remove client xYPKImSbK1sEfIAZ51k35A
+2023-11-29 10:19:21.404 +07:00 [INF] User: remove client qGioaaCkKPHN5tsFYfDjfQ
+2023-11-29 10:19:21.404 +07:00 [INF] User: remove client KnSpLWssVYIxJ_e2a1v0Fg
+2023-11-29 10:19:21.404 +07:00 [INF] User: remove client 6j_5LUuBAMk3_AVcYCDT5A
+2023-11-29 10:19:21.405 +07:00 [INF] User: remove client kb5ln2NSCWAWMMFXYKaULw
+2023-11-29 10:19:21.405 +07:00 [INF] User: remove client Pl7_z8JWePU0Qba3RJQvGg
+2023-11-29 10:19:21.405 +07:00 [INF] User: remove client GtVH9F8gHN9Doiyg3pQtiQ
+2023-11-29 10:19:21.405 +07:00 [INF] User: remove client eGhtZZ31NcXm7bghXVt0Ug
+2023-11-29 10:19:21.406 +07:00 [INF] User: remove client Gu2sXsLDbqlOR0ldRYjoog
+2023-11-29 10:19:21.470 +07:00 [INF] User: remove client EwxUoqWgfo_Fap_lNyH9ew
+2023-11-29 10:19:21.627 +07:00 [INF] Reconnect ok
+2023-11-29 10:19:22.135 +07:00 [INF] User: remove client eCrKuuKlwGf9pJSgmFLzBA
+2023-11-29 10:19:22.187 +07:00 [INF] User: remove client SpkyMACH1kCJuUsP0Fj47Q
+2023-11-29 10:19:22.199 +07:00 [INF] User: remove client d5Gi_x-fVar0GyeUNSiJxw
+2023-11-29 10:19:22.244 +07:00 [INF] User: remove client _f7-7pgZ6eI0pKN2tyncKw
+2023-11-29 10:19:22.351 +07:00 [INF] User: new connection o9054mHAWHElP15PIBAiSg
+2023-11-29 10:19:22.352 +07:00 [INF] User: new connection 2ExIl8KHlyVuoguglBWlrA
+2023-11-29 10:19:22.367 +07:00 [INF] User: new connection GJE7oRKw_AzeWZZzQVOWUg
+2023-11-29 10:19:22.385 +07:00 [INF] User: new connection 1U-ed6tOUkww4Jgj9ip8Sw
+2023-11-29 10:19:22.400 +07:00 [INF] User: new connection AhkvIDPfhCspbIn3vJnXoA
+2023-11-29 10:19:22.416 +07:00 [INF] User: new connection ydmKok1kzNEuCpkLhghUAQ
+2023-11-29 10:19:22.433 +07:00 [INF] User: new connection uIzYIb4ROyfdS7RNkdNPUw
+2023-11-29 10:19:22.448 +07:00 [INF] User: new connection 6yg3HBslyifEqNRruqJhmA
+2023-11-29 10:19:22.463 +07:00 [INF] User: new connection cpB04FPrP7lm2HvK85PzCg
+2023-11-29 10:19:22.478 +07:00 [INF] User: new connection 3hQxR_VppArmxvv25BDNLw
+2023-11-29 10:19:22.493 +07:00 [INF] User: new connection htcUulIoF9lLNeZ-LIfMRA
+2023-11-29 10:19:22.510 +07:00 [INF] User: new connection ys5TrGs1VyinPbHvrdjMKA
+2023-11-29 10:19:22.526 +07:00 [INF] User: new connection bc1-eenh9tbIkAwEEpJOBw
+2023-11-29 10:19:22.541 +07:00 [INF] User: new connection SqHSUk7HYqEpq0n1vB99qw
+2023-11-29 10:19:22.619 +07:00 [INF] User: new connection 0M1BfPIhdeBIMSDuo3rTkg
+2023-11-29 10:19:22.771 +07:00 [INF] User: new connection QDyUZCvyYknIjaJznFTsMw
+2023-11-29 10:19:22.864 +07:00 [INF] User: new connection cFkj_sfgOABcXrfWUby_iQ
+2023-11-29 10:19:24.813 +07:00 [INF] User: new connection 3fKQUp53PX_kAKqFoo4VHw
+2023-11-29 10:19:26.234 +07:00 [INF] Reconnect ok
+2023-11-29 10:19:48.651 +07:00 [INF] Send message ok
+2023-11-29 10:20:35.961 +07:00 [INF] User: new connection IkW32wx4gcQRS_E6--IH4Q
+2023-11-29 10:20:58.975 +07:00 [INF] User: new connection wAl1E6dVQPsxlILiw6mnrw
+2023-11-29 10:21:04.365 +07:00 [INF] Send message fail
+2023-11-29 10:21:25.130 +07:00 [INF] Send message fail
+2023-11-29 10:21:32.013 +07:00 [INF] Send message fail
+2023-11-29 10:21:38.678 +07:00 [INF] Send message fail
+2023-11-29 10:21:40.887 +07:00 [INF] Reconnect ok
+2023-11-29 10:21:44.493 +07:00 [INF] Send message ok
+2023-11-29 10:22:11.447 +07:00 [INF] User: remove client cpB04FPrP7lm2HvK85PzCg
+2023-11-29 10:22:11.447 +07:00 [INF] User: remove client cFkj_sfgOABcXrfWUby_iQ
+2023-11-29 10:22:11.448 +07:00 [INF] User: remove client wAl1E6dVQPsxlILiw6mnrw
+2023-11-29 10:22:11.448 +07:00 [INF] User: remove client QDyUZCvyYknIjaJznFTsMw
+2023-11-29 10:22:11.448 +07:00 [INF] User: remove client 0M1BfPIhdeBIMSDuo3rTkg
+2023-11-29 10:22:11.448 +07:00 [INF] User: remove client uIzYIb4ROyfdS7RNkdNPUw
+2023-11-29 10:22:11.449 +07:00 [INF] User: remove client 3fKQUp53PX_kAKqFoo4VHw
+2023-11-29 10:22:11.451 +07:00 [INF] User: remove client ydmKok1kzNEuCpkLhghUAQ
+2023-11-29 10:22:11.451 +07:00 [INF] User: remove client ys5TrGs1VyinPbHvrdjMKA
+2023-11-29 10:22:11.451 +07:00 [INF] User: remove client 2ExIl8KHlyVuoguglBWlrA
+2023-11-29 10:22:11.451 +07:00 [INF] User: remove client 3hQxR_VppArmxvv25BDNLw
+2023-11-29 10:22:11.451 +07:00 [INF] User: remove client GJE7oRKw_AzeWZZzQVOWUg
+2023-11-29 10:22:11.520 +07:00 [INF] User: remove client bc1-eenh9tbIkAwEEpJOBw
+2023-11-29 10:22:11.519 +07:00 [INF] User: remove client IkW32wx4gcQRS_E6--IH4Q
+2023-11-29 10:22:11.520 +07:00 [INF] User: remove client SqHSUk7HYqEpq0n1vB99qw
+2023-11-29 10:22:11.520 +07:00 [INF] User: remove client AhkvIDPfhCspbIn3vJnXoA
+2023-11-29 10:22:11.520 +07:00 [INF] User: remove client htcUulIoF9lLNeZ-LIfMRA
+2023-11-29 10:22:11.520 +07:00 [INF] User: remove client 1U-ed6tOUkww4Jgj9ip8Sw
+2023-11-29 10:22:11.520 +07:00 [INF] User: remove client 6yg3HBslyifEqNRruqJhmA
+2023-11-29 10:22:11.726 +07:00 [INF] User: new connection ATb6_Pz6IKiGPusOabOmag
+2023-11-29 10:22:24.850 +07:00 [INF] Send message fail
+2023-11-29 10:22:27.840 +07:00 [INF] Reconnect ok
+2023-11-29 10:22:38.412 +07:00 [INF] Send message ok
+2023-11-29 10:23:15.264 +07:00 [INF] User: new connection XqfXlXes4ljTerLlj66m-w
+2023-11-29 10:23:22.956 +07:00 [INF] User: new connection rGzMm6Hp2aNRD1wmKvoNcQ
+2023-11-29 10:23:26.756 +07:00 [INF] Reconnect ok
+2023-11-29 10:23:41.120 +07:00 [INF] Reconnect ok
+2023-11-29 10:24:08.972 +07:00 [INF] User: new connection SNyB9bAly-GDrrT7JiQSLA
+2023-11-29 10:24:11.209 +07:00 [INF] Reconnect ok
+2023-11-29 10:24:29.563 +07:00 [INF] Send message ok
+2023-11-29 10:31:22.970 +07:00 [INF] User: new connection OQh1s8tgJBepV9Ap0YBIlQ
+2023-11-29 10:31:28.992 +07:00 [INF] User: remove client XqfXlXes4ljTerLlj66m-w
+2023-11-29 10:31:28.992 +07:00 [INF] User: remove client OQh1s8tgJBepV9Ap0YBIlQ
+2023-11-29 10:31:28.992 +07:00 [INF] User: remove client SNyB9bAly-GDrrT7JiQSLA
+2023-11-29 10:37:54.847 +07:00 [INF] User: new connection 6qqdRwRxzQZ16jTiznnTaA
+2023-11-29 10:39:13.164 +07:00 [INF] User: new connection 7d_KQnXUutF2TM5XPJ8zUw
+2023-11-29 10:39:15.078 +07:00 [INF] User: remove client 7d_KQnXUutF2TM5XPJ8zUw
+2023-11-29 10:39:16.592 +07:00 [INF] User: new connection fiofLlH2HEqFeVOm2orJfg
+2023-11-29 10:39:18.334 +07:00 [INF] Reconnect ok
+2023-11-29 10:39:31.615 +07:00 [INF] Reconnect ok
+2023-11-29 10:39:35.080 +07:00 [INF] Reconnect ok
+2023-11-29 10:40:50.016 +07:00 [INF] User: remove client 6qqdRwRxzQZ16jTiznnTaA
+2023-11-29 10:40:50.044 +07:00 [INF] User: remove client rGzMm6Hp2aNRD1wmKvoNcQ
+2023-11-29 10:40:50.055 +07:00 [INF] User: new connection u8dtWC_i_H_1vuD9RFbobA
+2023-11-29 10:40:50.122 +07:00 [INF] Reconnect ok
+2023-11-29 10:40:50.123 +07:00 [INF] User: remove client fiofLlH2HEqFeVOm2orJfg
+2023-11-29 10:40:54.544 +07:00 [INF] User: new connection uo9Gx5wi-16XRQYxG62Rjw
+2023-11-29 10:41:09.672 +07:00 [INF] Reconnect ok
+2023-11-29 10:44:18.075 +07:00 [INF] User: remove client uo9Gx5wi-16XRQYxG62Rjw
+2023-11-29 10:44:19.920 +07:00 [INF] User: new connection KI4FiETvZuRwXeAgNZk-ng
+2023-11-29 10:44:27.905 +07:00 [INF] Reconnect ok
+2023-11-29 10:45:03.768 +07:00 [INF] Send message ok
+2023-11-29 10:45:45.138 +07:00 [INF] User: remove client KI4FiETvZuRwXeAgNZk-ng
+2023-11-29 10:45:46.618 +07:00 [INF] User: new connection Z0b7ZdoitSn9TkgJ8S-4SA
+2023-11-29 10:46:10.409 +07:00 [INF] User: remove client Z0b7ZdoitSn9TkgJ8S-4SA
+2023-11-29 10:46:12.125 +07:00 [INF] User: new connection XSR3cxnMQCIV1y6oCtdVcw
+2023-11-29 10:47:04.126 +07:00 [INF] User: remove client XSR3cxnMQCIV1y6oCtdVcw
+2023-11-29 10:58:29.982 +07:00 [INF] User: new connection bYZsopMRlDmNqDT-sBupfw
+2023-11-29 10:58:47.299 +07:00 [INF] User: remove client bYZsopMRlDmNqDT-sBupfw
+2023-11-29 10:58:47.477 +07:00 [INF] User: new connection pZ4fEhSnwco48r_wWbEsDg
+2023-11-29 10:59:48.975 +07:00 [INF] User: remove client pZ4fEhSnwco48r_wWbEsDg
+2023-11-29 11:00:01.963 +07:00 [INF] User: new connection hyfgMQcitZc9ZvHLEaJR_w
+2023-11-29 11:01:29.962 +07:00 [INF] User: new connection M-Vf8pcjDl04g8oYK9yMPw
+2023-11-29 11:01:32.316 +07:00 [INF] User: remove client M-Vf8pcjDl04g8oYK9yMPw
+2023-11-29 11:01:32.344 +07:00 [INF] User: remove client hyfgMQcitZc9ZvHLEaJR_w
+2023-11-29 11:01:32.481 +07:00 [INF] User: new connection ZdRiAKaDMWYItrUKgX87hQ
+2023-11-29 11:01:51.988 +07:00 [INF] User: new connection TyKAbQIjWEW4Eu_TFsjSyg
+2023-11-29 11:02:31.961 +07:00 [INF] User: new connection 2xQ9nnaEFND4h8xasY7Nxg
+2023-11-29 11:02:36.746 +07:00 [INF] Reconnect ok
+2023-11-29 11:03:20.928 +07:00 [INF] User: new connection 31ewDrxjaE9wDznk1Ustuw
+2023-11-29 11:03:27.970 +07:00 [INF] User: new connection -jrIFBc0DRXQySQmrcuEig
+2023-11-29 11:03:31.458 +07:00 [INF] Reconnect ok
+2023-11-29 11:04:41.970 +07:00 [INF] User: new connection rI3bn_7-7mJcy4Efz7zrBQ
+2023-11-29 11:04:47.427 +07:00 [INF] Reconnect ok
+2023-11-29 11:05:02.966 +07:00 [INF] User: new connection sTIUu_LD3kXpbcK8yo-TEg
+2023-11-29 11:05:05.964 +07:00 [INF] User: new connection j-D5s535GYMlLEWAo3Aq-w
+2023-11-29 11:05:08.971 +07:00 [INF] User: new connection FjbR6m5Vmo64jo9_GF-c2g
+2023-11-29 11:05:36.965 +07:00 [INF] User: new connection PnnjbmJC2UdeWFpiblafXg
+2023-11-29 11:05:43.521 +07:00 [INF] User: remove client ZdRiAKaDMWYItrUKgX87hQ
+2023-11-29 11:05:43.521 +07:00 [INF] User: remove client TyKAbQIjWEW4Eu_TFsjSyg
+2023-11-29 11:05:43.522 +07:00 [INF] User: remove client 2xQ9nnaEFND4h8xasY7Nxg
+2023-11-29 11:05:43.522 +07:00 [INF] User: remove client PnnjbmJC2UdeWFpiblafXg
+2023-11-29 11:05:43.522 +07:00 [INF] User: remove client rI3bn_7-7mJcy4Efz7zrBQ
+2023-11-29 11:05:43.523 +07:00 [INF] User: remove client sTIUu_LD3kXpbcK8yo-TEg
+2023-11-29 11:05:43.523 +07:00 [INF] User: remove client -jrIFBc0DRXQySQmrcuEig
+2023-11-29 11:05:43.524 +07:00 [INF] User: remove client FjbR6m5Vmo64jo9_GF-c2g
+2023-11-29 11:05:43.524 +07:00 [INF] User: remove client j-D5s535GYMlLEWAo3Aq-w
+2023-11-29 11:05:43.524 +07:00 [INF] User: remove client 31ewDrxjaE9wDznk1Ustuw
+2023-11-29 11:05:43.692 +07:00 [INF] User: new connection L41GSZvw0HdI2dEXhgtmBQ
+2023-11-29 11:05:47.482 +07:00 [INF] Reconnect ok
+2023-11-29 11:06:29.963 +07:00 [INF] User: new connection l-nsboA_z6gwZcuVgDZeiQ
+2023-11-29 11:06:36.968 +07:00 [INF] Reconnect ok
+2023-11-29 11:06:42.589 +07:00 [INF] Send message ok
+2023-11-29 11:08:03.355 +07:00 [INF] User: new connection UsxKonXr-5ZJb93c7EVrpQ
+2023-11-29 11:08:08.682 +07:00 [INF] Reconnect ok
+2023-11-29 11:08:14.712 +07:00 [INF] Send message ok
+2023-11-29 11:10:48.377 +07:00 [INF] Send message ok
+2023-11-29 11:11:00.335 +07:00 [INF] Send message ok
+2023-11-29 11:11:11.193 +07:00 [INF] Send message ok
+2023-11-29 11:21:13.972 +07:00 [INF] User: new connection H9htT61MbNhqPS7qE5augg
+2023-11-29 11:21:20.112 +07:00 [INF] Send message fail
+2023-11-29 11:21:25.809 +07:00 [INF] Send message fail
+2023-11-29 11:21:37.973 +07:00 [INF] User: new connection 047hd93Px_Is6nd8S1sDQw
+2023-11-29 11:21:40.060 +07:00 [INF] User: remove client 047hd93Px_Is6nd8S1sDQw
+2023-11-29 11:21:40.061 +07:00 [INF] User: remove client L41GSZvw0HdI2dEXhgtmBQ
+2023-11-29 11:21:40.061 +07:00 [INF] User: remove client l-nsboA_z6gwZcuVgDZeiQ
+2023-11-29 11:21:40.085 +07:00 [INF] User: remove client UsxKonXr-5ZJb93c7EVrpQ
+2023-11-29 11:21:40.085 +07:00 [INF] User: remove client H9htT61MbNhqPS7qE5augg
+2023-11-29 11:21:40.241 +07:00 [INF] User: new connection sgGxDi2IM35qc8bMsRJ6kg
+2023-11-29 11:21:45.716 +07:00 [INF] Send message fail
+2023-11-29 11:21:52.212 +07:00 [INF] Reconnect ok
+2023-11-29 12:57:02.595 +07:00 [INF] Send message ok
+2023-11-29 12:57:02.642 +07:00 [INF] User: remove client u8dtWC_i_H_1vuD9RFbobA
+2023-11-29 12:57:02.704 +07:00 [INF] User: remove client sgGxDi2IM35qc8bMsRJ6kg
+2023-11-29 12:57:02.716 +07:00 [INF] User: new connection adI5e1LIr-qZaNRyJYm6aQ
+2023-11-29 12:57:05.924 +07:00 [INF] User: new connection pLSF3Sgn_DyGahBFkjcUMg
+2023-11-29 12:57:07.617 +07:00 [ERR] 57P01: terminating connection due to administrator command
+2023-11-29 12:57:07.617 +07:00 [ERR] 57P01: terminating connection due to administrator command
+2023-11-29 12:57:12.153 +07:00 [INF] Reconnect ok
+2023-11-29 12:57:17.796 +07:00 [INF] Reconnect ok
+2023-11-29 12:57:19.068 +07:00 [INF] Send message fail
+2023-11-29 12:57:49.194 +07:00 [INF] User: new connection TOuDfeOxDHJLPoaBGGgHaA
+2023-11-29 12:57:49.202 +07:00 [INF] User: new connection z7ZXoZlMYZcXarZyuyZsdw
+2023-11-29 12:58:02.606 +07:00 [INF] User: new connection ippQcnVMXTiGIcZPy2D6QQ
+2023-11-29 12:58:24.980 +07:00 [INF] User: new connection DGVJbOwq6CEccpxWdsio1w
+2023-11-29 12:58:33.481 +07:00 [INF] Reconnect ok
+2023-11-29 12:58:40.523 +07:00 [INF] Send message ok
+2023-11-29 12:59:37.358 +07:00 [INF] User: remove client DGVJbOwq6CEccpxWdsio1w
+2023-11-29 12:59:38.892 +07:00 [INF] User: new connection mJKS6yz-pzZu0sH_7X6ACQ
+2023-11-29 12:59:40.423 +07:00 [INF] Reconnect ok
+2023-11-29 12:59:42.247 +07:00 [INF] Send message ok
+2023-11-29 13:05:59.751 +07:00 [INF] User: remove client mJKS6yz-pzZu0sH_7X6ACQ
+2023-11-29 13:06:01.623 +07:00 [INF] User: new connection g6DokXVF929G_VFrzhZlnQ
+2023-11-29 13:06:06.949 +07:00 [INF] Reconnect ok
+2023-11-29 13:06:11.535 +07:00 [INF] Send message ok
+2023-11-29 13:06:14.767 +07:00 [INF] User: remove client g6DokXVF929G_VFrzhZlnQ
+2023-11-29 13:07:06.604 +07:00 [INF] User: new connection Hc6PvkiRhe0CoyUFBiFWng
+2023-11-29 13:07:06.772 +07:00 [INF] Reconnect ok
+2023-11-29 13:07:06.873 +07:00 [INF] Send message ok
+2023-11-29 13:07:26.183 +07:00 [INF] User: remove client Hc6PvkiRhe0CoyUFBiFWng
+2023-11-29 13:07:27.572 +07:00 [INF] User: new connection WJZulE8GhzgsJ6G5eXBraA
+2023-11-29 13:07:27.744 +07:00 [INF] Reconnect ok
+2023-11-29 13:07:27.844 +07:00 [INF] Send message ok
+2023-11-29 13:07:30.416 +07:00 [INF] User: remove client WJZulE8GhzgsJ6G5eXBraA
+2023-11-29 13:07:31.481 +07:00 [INF] User: new connection 9a0MJ7YPNU4A9tnMFFpPCg
+2023-11-29 13:07:31.630 +07:00 [INF] Reconnect ok
+2023-11-29 13:07:31.723 +07:00 [INF] Send message ok
+2023-11-29 13:09:46.209 +07:00 [INF] User: remove client 9a0MJ7YPNU4A9tnMFFpPCg
+2023-11-29 13:11:06.047 +07:00 [INF] User: new connection b9kG3C1HxeyodiQ4HuPPcQ
+2023-11-29 13:11:06.196 +07:00 [INF] Reconnect ok
+2023-11-29 13:11:06.283 +07:00 [INF] Send message ok
+2023-11-29 13:11:07.902 +07:00 [INF] User: remove client b9kG3C1HxeyodiQ4HuPPcQ
+2023-11-29 13:14:21.852 +07:00 [INF] User: new connection V2NcKJSdiw1M1REpC2dNoA
+2023-11-29 13:14:23.026 +07:00 [INF] Reconnect ok
+2023-11-29 13:14:23.147 +07:00 [INF] Send message ok
+2023-11-29 13:14:25.481 +07:00 [INF] User: new connection fh01MjskVlG1vzDk8L0SoQ
+2023-11-29 13:14:25.658 +07:00 [INF] Reconnect ok
+2023-11-29 13:14:25.764 +07:00 [INF] Send message ok
+2023-11-29 13:14:26.917 +07:00 [INF] User: remove client fh01MjskVlG1vzDk8L0SoQ
+2023-11-29 13:14:26.917 +07:00 [INF] User: remove client V2NcKJSdiw1M1REpC2dNoA
+2023-11-29 13:14:28.223 +07:00 [INF] User: new connection tarFTevDvHfZf33E7Dcr-w
+2023-11-29 13:14:28.396 +07:00 [INF] Reconnect ok
+2023-11-29 13:14:28.497 +07:00 [INF] Send message ok
+2023-11-29 13:14:30.904 +07:00 [INF] User: remove client tarFTevDvHfZf33E7Dcr-w
+2023-11-29 13:14:46.138 +07:00 [INF] User: new connection qdYR5m4w9JKhzqGLyuMl9g
+2023-11-29 13:14:46.322 +07:00 [INF] Reconnect ok
+2023-11-29 13:14:46.438 +07:00 [INF] Send message ok
+2023-11-29 13:14:47.557 +07:00 [INF] User: remove client qdYR5m4w9JKhzqGLyuMl9g
+2023-11-29 13:14:57.774 +07:00 [INF] User: new connection MeHTI5HaW5hG3T_SOm9EaA
+2023-11-29 13:14:57.937 +07:00 [INF] Reconnect ok
+2023-11-29 13:14:58.045 +07:00 [INF] Send message ok
+2023-11-29 13:14:59.151 +07:00 [INF] User: remove client MeHTI5HaW5hG3T_SOm9EaA
+2023-11-29 13:15:00.144 +07:00 [INF] User: new connection AhJ3_jmCWbdEN5IOdZ2lPQ
+2023-11-29 13:15:00.338 +07:00 [INF] Reconnect ok
+2023-11-29 13:15:00.432 +07:00 [INF] Send message ok
+2023-11-29 13:15:01.185 +07:00 [INF] User: remove client AhJ3_jmCWbdEN5IOdZ2lPQ
+2023-11-29 13:15:02.096 +07:00 [INF] User: new connection DjhSs7ZmtdjdZaJ9dh5Gaw
+2023-11-29 13:15:02.257 +07:00 [INF] Reconnect ok
+2023-11-29 13:15:02.362 +07:00 [INF] Send message ok
+2023-11-29 13:21:10.040 +07:00 [INF] User: new connection 3DYItaoHFtxZPpPcVDJZzg
+2023-11-29 13:22:27.503 +07:00 [INF] User: new connection Gn11CgMwl9v_lGuaYj0zGg
+2023-11-29 13:22:35.151 +07:00 [INF] User: new connection NGrxl5ohIEv133fhszsbow
+2023-11-29 13:22:35.364 +07:00 [INF] Reconnect ok
+2023-11-29 13:22:35.489 +07:00 [INF] Send message ok
+2023-11-29 13:24:47.886 +07:00 [INF] User: remove client NGrxl5ohIEv133fhszsbow
+2023-11-29 13:24:47.886 +07:00 [INF] User: remove client Gn11CgMwl9v_lGuaYj0zGg
+2023-11-29 13:24:51.293 +07:00 [INF] User: new connection Md3fS-Q5TMD2MU2X7_Qm9g
+2023-11-29 13:24:51.447 +07:00 [INF] Reconnect ok
+2023-11-29 13:24:51.532 +07:00 [INF] Send message ok
+2023-11-29 13:25:32.698 +07:00 [INF] User: new connection 5ZYlmWu9BfRmhG2C6mdsMg
+2023-11-29 13:25:32.847 +07:00 [INF] Reconnect ok
+2023-11-29 13:25:32.926 +07:00 [INF] Send message ok
+2023-11-29 13:25:34.347 +07:00 [INF] User: remove client 5ZYlmWu9BfRmhG2C6mdsMg
+2023-11-29 13:25:34.347 +07:00 [INF] User: remove client Md3fS-Q5TMD2MU2X7_Qm9g
+2023-11-29 13:25:34.510 +07:00 [INF] User: new connection WgGHtisyc0HeeT03-2mAXA
+2023-11-29 13:25:34.659 +07:00 [INF] Reconnect ok
+2023-11-29 13:25:34.739 +07:00 [INF] Send message ok
+2023-11-29 13:25:35.427 +07:00 [INF] User: remove client WgGHtisyc0HeeT03-2mAXA
+2023-11-29 13:25:35.568 +07:00 [INF] User: new connection QlzuuAeRXgaufU9wAPEcMw
+2023-11-29 13:25:35.707 +07:00 [INF] Reconnect ok
+2023-11-29 13:25:35.791 +07:00 [INF] Send message ok
+2023-11-29 13:26:07.845 +07:00 [INF] User: remove client QlzuuAeRXgaufU9wAPEcMw
+2023-11-29 13:26:07.908 +07:00 [INF] User: new connection uLBdy85GmsBGJ4Ymg3zgYA
+2023-11-29 13:26:08.087 +07:00 [INF] Reconnect ok
+2023-11-29 13:26:08.177 +07:00 [INF] Send message ok
+2023-11-29 13:26:08.929 +07:00 [INF] User: remove client uLBdy85GmsBGJ4Ymg3zgYA
+2023-11-29 13:26:08.994 +07:00 [INF] User: new connection YgKAMs-8PppaU1Q4brVanA
+2023-11-29 13:26:09.137 +07:00 [INF] Reconnect ok
+2023-11-29 13:26:09.218 +07:00 [INF] Send message ok
+2023-11-29 13:26:09.588 +07:00 [INF] User: remove client YgKAMs-8PppaU1Q4brVanA
+2023-11-29 13:26:09.653 +07:00 [INF] User: new connection 2mdO2OUZbsUuQQgsG1AlHg
+2023-11-29 13:26:09.787 +07:00 [INF] Reconnect ok
+2023-11-29 13:26:09.901 +07:00 [INF] Send message ok
+2023-11-29 13:26:10.242 +07:00 [INF] User: remove client 2mdO2OUZbsUuQQgsG1AlHg
+2023-11-29 13:26:10.310 +07:00 [INF] User: new connection 6YSoIfsSA4j0g7jPKoX38g
+2023-11-29 13:26:10.457 +07:00 [INF] Reconnect ok
+2023-11-29 13:26:10.541 +07:00 [INF] Send message ok
+2023-11-29 13:26:10.825 +07:00 [INF] User: remove client 6YSoIfsSA4j0g7jPKoX38g
+2023-11-29 13:26:10.886 +07:00 [INF] User: new connection nz0bLnTP5pkT9NNi7zXN9A
+2023-11-29 13:26:11.057 +07:00 [INF] Reconnect ok
+2023-11-29 13:26:11.149 +07:00 [INF] Send message ok
+2023-11-29 13:30:37.003 +07:00 [INF] User: new connection 05I-BISn5eGq8JXeleNC7g
+2023-11-29 13:30:37.151 +07:00 [INF] Reconnect ok
+2023-11-29 13:30:37.237 +07:00 [INF] Send message ok
+2023-11-29 13:32:04.971 +07:00 [INF] User: new connection i6ReVq4WBWRnUNLuhIPr8w
+2023-11-29 13:32:06.014 +07:00 [INF] Reconnect ok
+2023-11-29 13:32:06.133 +07:00 [INF] Send message ok
+2023-11-29 13:32:08.824 +07:00 [INF] User: remove client i6ReVq4WBWRnUNLuhIPr8w
+2023-11-29 13:32:08.826 +07:00 [INF] User: remove client 05I-BISn5eGq8JXeleNC7g
+2023-11-29 13:32:08.837 +07:00 [INF] User: remove client nz0bLnTP5pkT9NNi7zXN9A
+2023-11-29 13:32:09.003 +07:00 [INF] User: new connection rY3SCbV2Fxjr2U1ttR46sw
+2023-11-29 13:32:09.175 +07:00 [INF] Reconnect ok
+2023-11-29 13:32:09.279 +07:00 [INF] Send message ok
+2023-11-29 13:32:41.991 +07:00 [INF] User: new connection diMvf2BrpTStxh4ExY5THg
+2023-11-29 13:32:42.166 +07:00 [INF] Reconnect ok
+2023-11-29 13:32:42.294 +07:00 [INF] Send message ok
+2023-11-29 13:32:44.142 +07:00 [INF] User: remove client diMvf2BrpTStxh4ExY5THg
+2023-11-29 13:32:44.152 +07:00 [INF] User: remove client rY3SCbV2Fxjr2U1ttR46sw
+2023-11-29 13:32:44.322 +07:00 [INF] User: new connection 93PLouMu3sJWZu_ewRVz0A
+2023-11-29 13:32:44.504 +07:00 [INF] Reconnect ok
+2023-11-29 13:32:44.606 +07:00 [INF] Send message ok
+2023-11-29 13:32:46.163 +07:00 [INF] User: new connection Gdq01TPI9jt1KOOoN99YjQ
+2023-11-29 13:32:46.315 +07:00 [INF] Reconnect ok
+2023-11-29 13:32:46.408 +07:00 [INF] Send message ok
+2023-11-29 13:32:47.966 +07:00 [INF] User: remove client Gdq01TPI9jt1KOOoN99YjQ
+2023-11-29 13:32:49.109 +07:00 [INF] User: new connection B1Hgf1VKIZ_abf0AnsXQ9w
+2023-11-29 13:32:49.273 +07:00 [INF] Reconnect ok
+2023-11-29 13:32:49.370 +07:00 [INF] Send message ok
+2023-11-29 13:33:04.565 +07:00 [INF] User: new connection JsM-klhLzZa40wcx6T4IEg
+2023-11-29 13:33:04.734 +07:00 [INF] Reconnect ok
+2023-11-29 13:33:05.103 +07:00 [INF] Send message ok
+2023-11-29 13:33:05.514 +07:00 [INF] User: remove client JsM-klhLzZa40wcx6T4IEg
+2023-11-29 13:33:05.514 +07:00 [INF] User: remove client B1Hgf1VKIZ_abf0AnsXQ9w
+2023-11-29 13:33:05.514 +07:00 [INF] User: remove client 93PLouMu3sJWZu_ewRVz0A
+2023-11-29 13:33:05.680 +07:00 [INF] User: new connection REI0FJHvUiPSVd6pWVT98A
+2023-11-29 13:33:05.854 +07:00 [INF] Reconnect ok
+2023-11-29 13:33:05.947 +07:00 [INF] Send message ok
+2023-11-29 13:33:32.707 +07:00 [INF] User: remove client REI0FJHvUiPSVd6pWVT98A
+2023-11-29 13:33:32.840 +07:00 [INF] User: new connection CC6IpKQ0L5J0y9CYgmZdgg
+2023-11-29 13:33:33.015 +07:00 [INF] Reconnect ok
+2023-11-29 13:33:33.114 +07:00 [INF] Send message ok
+2023-11-29 13:34:50.988 +07:00 [INF] User: new connection ftndpStYfavdTRuttKCn4Q
+2023-11-29 13:34:51.146 +07:00 [INF] Reconnect ok
+2023-11-29 13:34:51.245 +07:00 [INF] Send message ok
+2023-11-29 13:34:53.737 +07:00 [INF] User: remove client ftndpStYfavdTRuttKCn4Q
+2023-11-29 13:34:53.737 +07:00 [INF] User: remove client CC6IpKQ0L5J0y9CYgmZdgg
+2023-11-29 13:34:53.884 +07:00 [INF] User: new connection EpJpkBX0cA9yGp1BAl0Zeg
+2023-11-29 13:34:54.045 +07:00 [INF] Reconnect ok
+2023-11-29 13:34:54.152 +07:00 [INF] Send message ok
+2023-11-29 13:34:55.483 +07:00 [INF] User: remove client EpJpkBX0cA9yGp1BAl0Zeg
+2023-11-29 13:34:55.608 +07:00 [INF] User: new connection Pi5-74cN0BEYiMYV-oGuzA
+2023-11-29 13:34:55.776 +07:00 [INF] Reconnect ok
+2023-11-29 13:34:55.870 +07:00 [INF] Send message ok
+2023-11-29 13:34:58.647 +07:00 [INF] User: remove client Pi5-74cN0BEYiMYV-oGuzA
+2023-11-29 13:34:59.933 +07:00 [INF] User: new connection iG4yACutz-idmaS0O8kisA
+2023-11-29 13:35:00.096 +07:00 [INF] Reconnect ok
+2023-11-29 13:35:00.190 +07:00 [INF] Send message ok
+2023-11-29 13:35:12.017 +07:00 [INF] User: remove client iG4yACutz-idmaS0O8kisA
+2023-11-29 13:35:16.696 +07:00 [INF] User: new connection VB_sP6fAPP_Nx5Fyxymu8g
+2023-11-29 13:35:16.855 +07:00 [INF] Reconnect ok
+2023-11-29 13:35:16.949 +07:00 [INF] Send message ok
+2023-11-29 13:35:19.804 +07:00 [INF] User: new connection _v8pNW2AYGAIc_XkSgM26w
+2023-11-29 13:35:19.977 +07:00 [INF] Reconnect ok
+2023-11-29 13:35:20.081 +07:00 [INF] Send message ok
+2023-11-29 13:35:20.366 +07:00 [INF] User: new connection a2bgQTExk4TPWEDawUEgPw
+2023-11-29 13:35:20.518 +07:00 [INF] Reconnect ok
+2023-11-29 13:35:20.620 +07:00 [INF] Send message ok
+2023-11-29 13:35:20.831 +07:00 [INF] User: new connection eILZcX1DPEWxeqlJiyGsOA
+2023-11-29 13:35:21.007 +07:00 [INF] Reconnect ok
+2023-11-29 13:35:21.113 +07:00 [INF] Send message ok
+2023-11-29 13:35:21.358 +07:00 [INF] User: new connection wO9dOtP0WKGd-jpbeuJdvQ
+2023-11-29 13:35:21.526 +07:00 [INF] Reconnect ok
+2023-11-29 13:35:21.618 +07:00 [INF] Send message ok
+2023-11-29 13:35:21.860 +07:00 [INF] User: new connection TUi9UMTouaGEqodNdRBrbQ
+2023-11-29 13:35:22.016 +07:00 [INF] Reconnect ok
+2023-11-29 13:35:22.115 +07:00 [INF] Send message ok
+2023-11-29 13:35:22.842 +07:00 [INF] User: new connection Aq_numW0IQXThRi-3I1tZw
+2023-11-29 13:35:23.019 +07:00 [INF] Reconnect ok
+2023-11-29 13:35:23.136 +07:00 [INF] Send message ok
+2023-11-29 13:35:23.389 +07:00 [INF] User: new connection fvswOhPwQXHAwWg3opeYaQ
+2023-11-29 13:35:23.566 +07:00 [INF] Reconnect ok
+2023-11-29 13:35:23.674 +07:00 [INF] Send message ok
+2023-11-29 13:35:23.905 +07:00 [INF] User: new connection AhsjmGKsW02MLsDRS7UNzg
+2023-11-29 13:35:24.158 +07:00 [INF] Reconnect ok
+2023-11-29 13:35:24.280 +07:00 [INF] Send message ok
+2023-11-29 13:35:38.795 +07:00 [INF] User: new connection r7oSQmxEYqAZg4a3BsWFKA
+2023-11-29 13:35:38.966 +07:00 [INF] Reconnect ok
+2023-11-29 13:35:39.059 +07:00 [INF] Send message ok
+2023-11-29 13:35:47.447 +07:00 [INF] User: remove client eILZcX1DPEWxeqlJiyGsOA
+2023-11-29 13:35:47.452 +07:00 [INF] User: remove client fvswOhPwQXHAwWg3opeYaQ
+2023-11-29 13:35:47.465 +07:00 [INF] User: remove client r7oSQmxEYqAZg4a3BsWFKA
+2023-11-29 13:35:47.465 +07:00 [INF] User: remove client a2bgQTExk4TPWEDawUEgPw
+2023-11-29 13:35:47.481 +07:00 [INF] User: remove client VB_sP6fAPP_Nx5Fyxymu8g
+2023-11-29 13:35:47.498 +07:00 [INF] User: remove client AhsjmGKsW02MLsDRS7UNzg
+2023-11-29 13:35:47.505 +07:00 [INF] User: remove client TUi9UMTouaGEqodNdRBrbQ
+2023-11-29 13:35:47.510 +07:00 [INF] User: remove client _v8pNW2AYGAIc_XkSgM26w
+2023-11-29 13:35:47.530 +07:00 [INF] User: remove client wO9dOtP0WKGd-jpbeuJdvQ
+2023-11-29 13:35:47.531 +07:00 [INF] User: remove client Aq_numW0IQXThRi-3I1tZw
+2023-11-29 13:35:47.639 +07:00 [INF] User: new connection J7meRHXDnp4LTl5NZ8zG3Q
+2023-11-29 13:35:47.796 +07:00 [INF] Reconnect ok
+2023-11-29 13:35:47.897 +07:00 [INF] Send message ok
+2023-11-29 13:35:49.195 +07:00 [INF] User: remove client J7meRHXDnp4LTl5NZ8zG3Q
+2023-11-29 13:35:50.141 +07:00 [INF] User: new connection yNUx6a7poEfjLoDv1_E9CA
+2023-11-29 13:35:50.296 +07:00 [INF] Reconnect ok
+2023-11-29 13:35:50.375 +07:00 [INF] Send message ok
+2023-11-29 13:35:56.719 +07:00 [INF] User: remove client yNUx6a7poEfjLoDv1_E9CA
+2023-11-29 13:35:59.244 +07:00 [INF] User: new connection hAtjJpuJBMxhavgii-icQw
+2023-11-29 13:35:59.436 +07:00 [INF] Reconnect ok
+2023-11-29 13:35:59.539 +07:00 [INF] Send message ok
+2023-11-29 13:37:27.967 +07:00 [INF] User: remove client hAtjJpuJBMxhavgii-icQw
+2023-11-29 13:37:28.093 +07:00 [INF] User: new connection t3xP-wJ_EYkt_n4RcVp0Qg
+2023-11-29 13:37:28.292 +07:00 [INF] Reconnect ok
+2023-11-29 13:37:28.403 +07:00 [INF] Send message ok
+2023-11-29 13:37:29.320 +07:00 [INF] User: remove client t3xP-wJ_EYkt_n4RcVp0Qg
+2023-11-29 13:37:29.395 +07:00 [INF] User: new connection rTE0d43rtcBq-IEKld8PZQ
+2023-11-29 13:37:29.550 +07:00 [INF] Reconnect ok
+2023-11-29 13:37:29.649 +07:00 [INF] Send message ok
+2023-11-29 13:37:30.981 +07:00 [INF] User: remove client rTE0d43rtcBq-IEKld8PZQ
+2023-11-29 13:37:31.051 +07:00 [INF] User: new connection HJvpJ6s0M_W1ZLTDDp_nzw
+2023-11-29 13:37:31.209 +07:00 [INF] Reconnect ok
+2023-11-29 13:37:31.322 +07:00 [INF] Send message ok
+2023-11-29 14:06:39.375 +07:00 [INF] User: new connection liyeM7X0bLyoqb6RGIi8dA
+2023-11-29 14:07:33.063 +07:00 [INF] User: new connection WulZcAnSzvBa2grCXQQNcA
+2023-11-29 14:08:11.130 +07:00 [INF] User: new connection 6aF6P14Q-SbKCR32t_RdgQ
+2023-11-29 14:08:58.115 +07:00 [INF] User: new connection NDOahmuvR9yDcUiiGlabsg

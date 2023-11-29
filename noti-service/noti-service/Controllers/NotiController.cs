@@ -16,12 +16,16 @@ namespace noti_service.Controllers
         {
             return Ok(Program.api_noti.GetListNoti(code));
         }
-
+        public class NotiDTORequest
+        {
+            public string code { get; set; }
+            public string body { get; set; }
+        }
         [HttpPost]
         [Route("createNoti")]
-        public async Task<IActionResult> createNoti(string code, string body)
+        public async Task<IActionResult> createNoti([FromBody] NotiDTORequest noti)
         {
-            bool tmp =await Program.api_noti.createNotiAsync(code, body);
+            bool tmp =await Program.api_noti.createNotiAsync(noti.code, noti.body);
             if(tmp)
             {
                 return Ok();

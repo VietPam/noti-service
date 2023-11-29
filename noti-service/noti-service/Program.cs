@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Cors.Infrastructure;
 using Microsoft.AspNetCore.Http.Connections;
 using Microsoft.AspNetCore.SignalR;
 using Microsoft.EntityFrameworkCore;
@@ -38,6 +39,32 @@ namespace noti_service
                 //    option.Limits.MaxRequestBodySize = null;
                 //    option.Limits.MaxRequestBufferSize = null;
                 //});
+                builder.Services.AddCors(options =>
+                {
+                    options.AddDefaultPolicy(builder =>
+                    {
+                        builder.WithOrigins("http://localhost:3000")
+                            .AllowAnyHeader()
+                            .AllowAnyMethod()
+                            .AllowCredentials();
+                        builder.WithOrigins("https://demo-signalr-reactjs.vercel.app/")
+                            .AllowAnyHeader()
+                            .AllowAnyMethod()
+                            .AllowCredentials();
+
+                    });
+
+                        
+                    //options.AddDefaultPolicy("CorsPolicy"
+                    //    builder => builder
+                    //        .WithOrigins("http://localhost:3000/") // Add the URL of your web page
+                    //        .AllowAnyMethod()
+                    //        .AllowAnyHeader()
+                    //        .AllowCredentials()
+                    //        //.SetIsOriginAllowed(origin =>true).WithExposedHeaders("Grpc-Status", "Grpc-Encoding", "Grpc-Accept-Encoding")
+                    //        );
+                });
+
                 builder.Services.AddCors(options =>
                 {
                     options.AddPolicy("HTTPSystem", builder =>
@@ -82,7 +109,9 @@ namespace noti_service
                 app.UseMigrationsEndPoint();
 
                 //app.UseHttpsRedirection();
-                app.UseCors("HTTPSystem");
+                //app.UseCors("HTTPSystem");
+                //app.UseCors("CorsPolicy");
+                app.UseCors();
                 app.UseRouting();
                 app.UseAuthorization();
 
@@ -97,7 +126,7 @@ namespace noti_service
                 notiHub = (IHubContext<NotiHub>?)app.Services.GetService(typeof(IHubContext<NotiHub>));
 
                 app.MapControllers();
-                //app.MapGet("/", () => string.Format("Server noti - {0}", DateTime.Now));
+                app.MapGet("/", () => string.Format("Server SignalR okay"));
 
                 app.Run();
             }
