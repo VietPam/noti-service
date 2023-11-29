@@ -43,14 +43,19 @@ namespace noti_service
                 {
                     options.AddDefaultPolicy(builder =>
                     {
+                        builder.AllowAnyOrigin()
+                            .AllowAnyHeader()
+                            .AllowAnyMethod()
+                            .AllowCredentials();
                         builder.WithOrigins("http://localhost:3000")
                             .AllowAnyHeader()
                             .AllowAnyMethod()
                             .AllowCredentials();
-                        builder.WithOrigins("https://demo-signalr-reactjs.vercel.app/")
+                        builder.WithOrigins("https://demo-signalr-reactjs.vercel.app")
                             .AllowAnyHeader()
                             .AllowAnyMethod()
                             .AllowCredentials();
+                        
 
                     });
 
